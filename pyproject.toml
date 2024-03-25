@@ -1,0 +1,31 @@
+[build-system]
+requires = ['maturin>=0.13,<0.14']
+build-backend = 'maturin'
+
+
+[project]
+name = 'bitvm'
+requires-python = '>=3.8'
+classifiers = [
+  'Programming Language :: Rust',
+  'Programming Language :: Python :: Implementation :: CPython',
+  'Programming Language :: Python :: Implementation :: PyPy',
+]
+
+
+[tool.poetry]
+authors = [
+  'Sitt Guruvanich <aekazitt+github@gmail.com>'
+]
+description = 'Python wrapper for BitVM Rust implementation'
+name = 'bitvm'
+version = '0.0.1'
+packages = [{include='bitvm.pyi'}]
+
+
+[tool.poetry.dependencies]
+python = '^3.8'
+
+
+[tool.poetry.dev-dependencies]
+maturin = '^0.13.1'

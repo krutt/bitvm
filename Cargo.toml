@@ -1,0 +1,14 @@
+[lib]
+name = 'bitvm'
+crate-type = ['cdylib']
+
+
+[package]
+name = 'bitvm'
+version = '0.0.1'
+edition = '2021'
+
+
+[dependencies]
+bitvm = { path = "../BitVM/bitvm" }
+pyo3 = { version='0.20.3', features = ['extension-module'] }
