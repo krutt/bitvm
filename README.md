@@ -1,5 +1,6 @@
 # BitVM
 
+[![Bitcoin-only](https://img.shields.io/badge/bitcoin-only-FF9900?logo=bitcoin)](https://twentyone.world)
 [![Package vesion](https://img.shields.io/pypi/v/bitvm)](https://pypi.org/project/bitvm)
 [![Format](https://img.shields.io/pypi/format/bitvm)](https://pypi.org/project/bitvm)
 [![Python version](https://img.shields.io/pypi/pyversions/bitvm)](https://pypi.org/project/bitvm)
