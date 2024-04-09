@@ -5,5 +5,5 @@ use pyo3::pyclass;
 
 #[pyclass]
 pub struct FmtStack {
-  stack: b_FmtStack
+    stack: b_FmtStack,
 }
