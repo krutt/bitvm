@@ -5,9 +5,15 @@ requires = ['poetry-core']
 
 [project]
 classifiers = [
+  'Intended Audience :: Developers',
   'License :: OSI Approved :: MIT License',
+  'Programming Language :: Python :: 3',
+  'Programming Language :: Python :: 3.9',
+  'Programming Language :: Python :: 3.10',
+  'Programming Language :: Python :: 3.11',
+  'Programming Language :: Python :: 3.12',
   'Programming Language :: Python :: Implementation :: CPython',
-  'Programming Language :: Python :: Implementation :: PyPy',
+  'Programming Language :: Python :: Implementation :: PyPy'
 ]
 license = {file='LICENSE'}
 name = 'bitvm'
@@ -28,8 +34,9 @@ packages = [
 
 
 [tool.poetry.dependencies]
-python = '^3.8'
+python = '^3.9'
 python-bitcoinlib = '^0.12.2'
+numpy = '^1.26.4'
 
 
 [tool.poetry.group.dev.dependencies]

@@ -13,5 +13,5 @@
 ### Standard packages ###
 from random import random, seed
 
-def test_add() -> None:
-  ...
+
+def test_add() -> None: ...
