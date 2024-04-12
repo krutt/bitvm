@@ -1,14 +1,12 @@
 #!/usr/bin/env python3.8
 # coding:utf-8
-# Copyright (C) 2024 All rights reserved.
-# FILENAME:    ~~/bitvm.pyi
-# VERSION: 	   0.0.1
-# CREATED: 	   2024-03-25 23:27
+# Copyright (C) 2023 All rights reserved.
+# FILENAME:    ~~/src/bitvm/__init__.py
+# VERSION: 	   0.1.0
+# CREATED: 	   2024-04-12 13:20
 # AUTHOR: 	   Sitt Guruvanich <aekazitt+github@gmail.com>
 # DESCRIPTION:
 #
 # HISTORY:
 # *************************************************************
-
-class ExecuteInfo: ...
-class FmtStack: ...
+"""BitVM implementation in pure python"""

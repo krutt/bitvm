@@ -1,12 +1,11 @@
 [build-system]
-requires = ['maturin>=0.13,<0.14']
-build-backend = 'maturin'
+build-backend = 'poetry.core.masonry.api'
+requires = ['poetry-core']
 
 
 [project]
 classifiers = [
   'License :: OSI Approved :: MIT License',
-  'Programming Language :: Rust',
   'Programming Language :: Python :: Implementation :: CPython',
   'Programming Language :: Python :: Implementation :: PyPy',
 ]
@@ -22,12 +21,15 @@ authors = [
 description = 'Python wrapper for BitVM Rust implementation'
 name = 'bitvm'
 version = '0.0.1'
-packages = [{include='bitvm.pyi'}]
+packages = [
+  {include='bitvm.pyi'},
+  {from='src', include='bitvm'}
+]
 
 
 [tool.poetry.dependencies]
 python = '^3.8'
 
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.7"
 
-[tool.poetry.dev-dependencies]
-maturin = '^0.13.1'
