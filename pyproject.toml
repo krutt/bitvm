@@ -29,6 +29,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = '^3.8'
+python-bitcoinlib = "^0.12.2"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.3.7"
