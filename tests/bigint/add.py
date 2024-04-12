@@ -9,6 +9,9 @@
 #
 # HISTORY:
 # *************************************************************
-"""
-Tests fot Bigint implementations
-"""
+
+### Standard packages ###
+from random import random, seed
+
+def test_add() -> None:
+  ...
